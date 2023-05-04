@@ -75,6 +75,14 @@ img {
 
 /**header**/
 
+.webp .header {
+  background-image: url(../img/banner.webp);
+}
+
+.no-webp .header {
+  background-image: url(../img/banner.jpg);
+}
+
 .header {
   background-image: url(../img/banner.jpg);
   height: 60rem;
@@ -247,14 +255,12 @@ img {
 
 .curso__info {
   font-weight: 400;
-  
 }
 
 .curso__label,
 .curso__info {
   font-size: 2rem;
 }
-
 
 /**Nosotros**/
 
@@ -265,35 +271,29 @@ img {
   background-repeat: no-repeat;
 }
 
-
 .formulario {
   background-color: var(--blanco);
   margin: -5rem auto 0 auto;
   width: 95%;
   padding: 5rem;
-
 }
 
 .campo {
   display: flex;
   margin-bottom: 2rem;
   gap: 2rem;
-
 }
 
 .campo__label {
   flex: 0 0 9rem;
   text-align: right;
-
 }
 
 .campo__field {
   flex: 1;
   border: 1px solid var(--gris);
-
 }
 
 .campo__field--textarea {
   height: 20rem;
-
 }
